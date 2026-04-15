@@ -1,0 +1,34 @@
+/*
+
+
+ESTO ES UN COMENTARIO LARGO
+GFJDK 
+KFDSK
+
+*/
+
+-- comentario corto
+
+-- Consultar todos los artistas
+
+SELECT * -- qué columnas queremos consultar
+FROM "Artist"; -- que tabla consultar 
+
+SELECT "FirstName", "LastName" 
+FROM "Customer";
+
+
+SELECT *
+FROM "Customer"
+WHERE "Country" = 'Brazil'
+ORDER BY "LastName" DESC;
+
+
+-- SELECCIONAR TODOS LOS EMPLEADOS QUE TRABAJEN COMO IT STAFF, 
+-- ORDENADOS SEGUN SU PRIMER NOMBRE
+
+
+-- SELECCIONAR TODOS LOS ALBUMES ORDENADOS ALFABETICAMENTE
+
+-- HACER UNA CONSULTA QUE CONTENGA UNICAMENTE EL NOMBRE DE  LA CANCION, SU DURACION
+-- ORDENADOS SEGUN DURACION
